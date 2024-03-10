@@ -15,7 +15,7 @@
      minus.innerText = '-';
      quantity.innerText = count.toString();
      plus.innerText = '+';
-     deleteBasketItem.src="../delete.svg";
+     deleteBasketItem.src="./delete.svg";
 
      plus.onclick = (e) => {
           e.preventDefault();

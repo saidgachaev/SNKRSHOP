@@ -21,17 +21,17 @@ let shipping = 150;
 
 
 const sneakers: Sneaker[] = [
-    { id: 1, name: 'New Balance 574 Vintage Brights', price: 650, src: '../vintage.png', count: 1 },
-    { id: 2, name: 'New Balance Made in UK 920 Chinese New Year', price: 1200, src: '../chinese.png', count: 1 },
-    { id: 3, name: 'New Balance 373 Modern Classics', price: 800, src: '../classic.png', count: 1 },
-    { id: 4, name: 'New Balance Made in UK 670 Chinese New Year', price: 780, src: '../chinese-brown.png', count: 1 },
-    { id: 5, name: 'New Balance X-Racer Utility', price: 1000, src: '../racer.png', count: 1 },
-    { id: 6, name: 'New Balance 5740 Think Colorfully', price: 940, src: '../colorfully.png', count: 1 }
+    { id: 1, name: 'New Balance 574 Vintage Brights', price: 650, src: './vintage.png', count: 1 },
+    { id: 2, name: 'New Balance Made in UK 920 Chinese New Year', price: 1200, src: './chinese.png', count: 1 },
+    { id: 3, name: 'New Balance 373 Modern Classics', price: 800, src: './classic.png', count: 1 },
+    { id: 4, name: 'New Balance Made in UK 670 Chinese New Year', price: 780, src: './chinese-brown.png', count: 1 },
+    { id: 5, name: 'New Balance X-Racer Utility', price: 1000, src: './racer.png', count: 1 },
+    { id: 6, name: 'New Balance 5740 Think Colorfully', price: 940, src: './colorfully.png', count: 1 }
 ];
 
 let basketElements: Sneaker[] = [
-    { id: 1, name: 'New Balance 574 Vintage<br>Brights', price: 650, src: '../vintage.png', count: 1 },
-    { id: 2, name: 'New Balance Made in UK 920 Chinese New Year', price: 1200, src: '../chinese.png', count: 1 }
+    { id: 1, name: 'New Balance 574 Vintage<br>Brights', price: 650, src: './vintage.png', count: 1 },
+    { id: 2, name: 'New Balance Made in UK 920 Chinese New Year', price: 1200, src: './chinese.png', count: 1 }
 ];
 
 
